@@ -7,7 +7,7 @@ let tentativas = 1;
 // texto da tela
 function textoNaTela(tag, texto) {
     document.querySelector(tag).innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.0});
 }
 
 // mensagem inicial
