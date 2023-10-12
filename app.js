@@ -1,6 +1,6 @@
 // variaveis
 let listaNumeroSorteado = [];
-let numLimite = 3;
+let numLimite = 10;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
