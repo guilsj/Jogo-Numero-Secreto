@@ -56,6 +56,7 @@ function novoJogo() {
     mensagemInicial();
     tentativas = 1;
     numeroSecreto = numeroAleatorio();
+    document.getElementById('reiniciar').setAtribute('disabled');
 }
 
 //limpar tela
